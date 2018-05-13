@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>vue-barousel</title>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="../dist/vue-barousel.js"></script>
+    <script src="./dist/vue-barousel.js"></script>
     <style>
       html,body{
         width: 100%;
@@ -36,7 +36,7 @@
   </head>
   <body>
     <div id="app">
-      <img src="../src/assets/logo.png" />
+      <img src="./src/assets/logo.png" />
       <h1>{{ msg }}</h1>
       <barousel class="barousel"
                 :list="setList()"
@@ -58,7 +58,7 @@
             for(let i =1 ; i<= 8;i++){
               list.push({
                 title: i,
-                src: '../static/img/'+i+'.jpg'
+                src: './static/img/'+i+'.jpg'
               })
             }
             return list;

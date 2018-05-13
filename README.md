@@ -13,7 +13,7 @@
 
 
 
-> demo:  http://boenfu.cn/vue-barousel/
+> demo:  http://boenfu.cn/vue-barousel/demo.html
 
 
 
@@ -53,7 +53,7 @@ var VueBarousel = require('VueBarousel')
 
 
 
-###   2.Basic Usage  基础用法 
+###   2.Basic Usage  基础用法
 
 
 
@@ -113,7 +113,7 @@ var VueBarousel = require('VueBarousel')
 
 3. barousel--> 回调函数
 
-   解释：返回触发的序号，便于触发相应逻辑 
+   解释：返回触发的序号，便于触发相应逻辑
 
    ​
 
