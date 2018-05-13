@@ -7,9 +7,9 @@
 
 
 
-![http://boenfu.cn/vue-barousel/demo.gif]()
+![http://boenfu.cn/vue-barousel/demo.gif](http://boenfu.cn/vue-barousel/demo.gif)
 
-​
+
 
 
 
@@ -33,7 +33,7 @@ npm install vue-barousel --save
 
 
 
-```js
+```
 ES6
 
 // 方法1.通过use挂载
@@ -59,7 +59,7 @@ var VueBarousel = require('VueBarousel')
 
 2. 任意位置导入组件（选项数组必传，格式见配置项）
 
-   例：
+   ​
 
    ```vue
    <barousel :list="[{src: '图片路径', title: '图片title'}]"></barousel>
@@ -108,24 +108,6 @@ var VueBarousel = require('VueBarousel')
    cover 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
 
    contain 把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。
-
-   ​
-
-   此时 @contextmenu="\$easycm(\$event,\$root,[tag])" 需要加上 tag 的值
-
-   如:
-
-   ```vue
-   <div @contextmenu="$easycm($event,$root,1)">
-       <p @contextmenu="$easycm($event,$root,2)"></p>
-   </div>
-   <easy-cm :tag="1"></easy-cm>
-   <easy-cm :tag="2"></easy-cm>
-   ```
-
-   这个时候 在 p 元素上会触发 tag 为 2 的菜单
-
-   div 的其他部分会触发 tag 为 1 的菜单
 
    ​
 
