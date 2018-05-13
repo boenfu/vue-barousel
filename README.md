@@ -5,6 +5,8 @@
 
 ### 网易云音乐同款 轮播图 组件
 
+###### 										——简单易用 
+
 
 
 ![http://boenfu.cn/vue-barousel/demo.gif](http://boenfu.cn/vue-barousel/demo.gif)
@@ -34,7 +36,6 @@ npm install vue-barousel --save
 
 
 ```
-ES6
 
 // 方法1.通过use挂载
 import VueBarousel from 'vue-barousel
@@ -53,19 +54,13 @@ var VueBarousel = require('VueBarousel')
 
 
 
-###   2.Basic Usage  基础用法
+###   2.Usage  用法
 
 
 
-2. 任意位置导入组件（选项数组必传，格式见配置项）
-
-   ​
-
-   ```vue
-   <barousel :list="[{src: '图片路径', title: '图片title'}]"></barousel>
-   ```
-
-
+```vue
+<barousel :list="[{src: '图片路径', title: '图片title'}]"></barousel>
+```
 
 
 ### 3.Options  配置项
@@ -90,7 +85,7 @@ var VueBarousel = require('VueBarousel')
 
    ```js
    [{
-         title: '这是一张图片', //可选
+         title: '一张图片', //可选
          src: 'xx.jpg'  //图片地址
    }]
    ```
@@ -122,6 +117,18 @@ var VueBarousel = require('VueBarousel')
 
 
 
+### 4.Develop 开发
+
+进入  vue-barousel  目录
+
+```
+// 开发模式
+npm run dev
+
+// 打包
+npm run build
+```
+
 
 
 ## Demo Code
@@ -129,7 +136,6 @@ var VueBarousel = require('VueBarousel')
 
 
 ```vue
-// gif 图源码
 <template>
   <div id="app">
     <barousel :list="setList()"
