@@ -38,13 +38,9 @@
         required: true
       },
       // 容器宽度
-      width: {
-        default: 800
-      },
+      width: {},
       // 容器高度
-      height: {
-        default: 300
-      },
+      height: {},
       // 图片显示模式
       imgType: {
         default: 'full'
@@ -77,8 +73,8 @@
     computed: {
       containerStyle () {
         return {
-          width: this.width + 'px',
-          height: this.height +'px',
+          width: this.width?this.width + 'px':'100%',
+          height: this.height?this.height +'px':'100%',
           perspective: this.width +'px',
           backgroundSize: this.imgType == 'full' ? '100% 100%' : this.imgType
         }
@@ -143,6 +139,8 @@
 
 <style lang="scss" scoped>
 .borousel_container{
+  width: 100%;
+  height: 100%;
   text-align: center;
   padding: 10px 0;
   position: relative;

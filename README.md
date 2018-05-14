@@ -5,7 +5,7 @@
 
 ### 网易云音乐同款 轮播图 组件
 
-###### 										——简单易用 
+###### 										——简单易用
 
 
 
@@ -69,8 +69,8 @@ var VueBarousel = require('VueBarousel')
 | :--------: | :------: | :--------------: | :-------------------------------------------: |
 |   :list    |   true   |        无        | 选项数组{src: '图片路径', title: '图片title'} |
 | @barousel  |  false   |        无        |               返回触发元素序号                |
-|   :width   |  false   |       800        |                   容器宽度                    |
-|  :height   |  false   |       300        |                   容器高度                    |
+|   :width   |  false   |       100%       |            容器宽度(默认父级100%)             |
+|  :height   |  false   |       100%       |            容器高度(默认父级100%)             |
 |   :arrow   |  false   |       true       |               是否开启前后箭头                |
 |  :imgType  |  false   |       full       |                 图片显示模式                  |
 | :autoBegin |  false   |       true       |                 是否自动播放                  |
