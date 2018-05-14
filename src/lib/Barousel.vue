@@ -171,7 +171,7 @@
         size: inherit;
       };
       transform: translate3d(-50%,0,-80px);
-      z-index: -1;
+      z-index: 1;
       &:before{
           position: absolute;
           content: "";
@@ -180,19 +180,21 @@
           top: 0;
           left: 0;
           background-color: rgba(0, 0, 0, 0);
-          transition-delay: 300ms!important;
-          transition: all 800ms;
+          transition-delay: 200ms!important;
+          transition: all 700ms;
       }
       &.now{
          transform: translate3d(-50%,0,0);
          cursor: pointer;
-         z-index: 10;
+         z-index: 100;
       }
       &.prev{
          transform: translate3d(-75%,0,-40px);
+        z-index: 99;
       }
       &.next{
          transform: translate3d(-25%,0,-40px);
+        z-index: 98;
       }
     }
     i{
@@ -204,6 +206,7 @@
       color: rgba(255, 255, 255, 0.38);
       text-shadow: 0 0 24px rgba(0,0,0,0.18);
       cursor: pointer;
+      z-index: 101;
       &:first-child{
         left: 0;
       }
@@ -232,6 +235,7 @@
   .tab {
     width: 100%;
     height: 20px;
+    z-index: 100;
     span{
       display: inline-block;
       width: 20px;
