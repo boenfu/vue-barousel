@@ -1,7 +1,7 @@
 {
   "name": "vue-barousel",
   "description": "Vue, Carousel, Cool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "boen <1997@boenfu.cn>",
   "license": "MIT",
   "main": "dist/vue-barousel.js",
