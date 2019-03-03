@@ -9,7 +9,7 @@
 
 
 
-![http://boenfu.cn/vue-barousel/demo.gif](http://boenfu.cn/vue-barousel/demo.gif)
+![./demo.gif)
 
 
 
