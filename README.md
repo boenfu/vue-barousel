@@ -9,7 +9,7 @@
 
 
 
-![./demo.gif)
+![](./demo.gif)
 
 
 
