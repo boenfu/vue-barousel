@@ -15,7 +15,7 @@
 
 
 
-> demo:  http://boenfu.cn/vue-barousel/demo.html
+> demo:  https://boenfu.github.io/vue-barousel/
 
 
 
@@ -25,6 +25,8 @@
 
 ```
 npm install vue-barousel --save
+
+yarn add vue-barousel
 ```
 
 
